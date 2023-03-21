@@ -1,5 +1,12 @@
 # This directory contains the information on generating isoform-specific protein structures with AlphaFold.
 
+## Getting fasta sequences for RefSeq protein isoforms
+
+### Downlaod the RefSeq file
+```
+wget https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_protein.faa.gz
+```
+
 ## Running AlphaFold
 
 ### LSF server submission:
