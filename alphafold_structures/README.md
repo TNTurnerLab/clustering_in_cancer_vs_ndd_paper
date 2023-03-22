@@ -7,6 +7,11 @@
 wget https://ftp.ncbi.nlm.nih.gov/refseq/H_sapiens/annotation/GRCh38_latest/refseq_identifiers/GRCh38_latest_protein.faa.gz
 ```
 
+### Get the protein fasta files
+```
+Rscript get_fasta_for_proteins_of_interest.R
+```
+
 ## Running AlphaFold
 
 ### LSF server submission:
