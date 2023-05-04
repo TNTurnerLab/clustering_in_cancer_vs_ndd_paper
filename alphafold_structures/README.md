@@ -48,10 +48,6 @@ done < "$inputFile"
 ## Just for reference I also ran this on uncompressed folders as follows:
 ```
 #!/bin/bash
-
-#Run first
-#ls *bz2  | sed 's/.tar.bz2//g' > list_of_proteins
-
 inputFile="$1"
 
 while read line
