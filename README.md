@@ -6,3 +6,8 @@
 Yilin Chen, Jeffrey K. Ng., Titi Akinwe, Yoonhoo Chang, Zachary L. Payne, Dr. Rachel Karchin^, Dr. Tychele N. Turner^
 
 ^ denotes co-corresponding authors
+
+## AlphaFold Structures
+We generated RefSeq structures for proteins based on their RefSeq sequence. This was to be in alignment with the variant annotation information. We focused on proteins where there were at least 5 missense de novo variants in individuals with neurodevelopmental disorders and 5 missense somatic variants in individuals with cancer. Proteins requiring more than 700 GB of RAM to model were not possible for us to model in our current compute environment and were therefore not generated in this study.
+
+
