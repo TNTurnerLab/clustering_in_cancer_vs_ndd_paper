@@ -44,3 +44,28 @@ do
 	rm -rf "$line"/
 done < "$inputFile"
 ```
+
+## Just for reference I also ran this on uncompressed folders as follows:
+```
+#!/bin/bash
+
+#Run first
+#ls *bz2  | sed 's/.tar.bz2//g' > list_of_proteins
+
+inputFile="$1"
+
+while read line
+do 
+	echo "$line"
+	sudo chmod -R 777 "$line"
+	cd "$line"
+	python3 ../model_archive.py 
+	cd ..
+	mkdir final_model_archive/"$line"/
+	cp "$line"/ranked_0.pdb final_model_archive/"$line"/
+	cp "$line"/ranked_0.pkl final_model_archive/"$line"/
+	cp "$line"/ranking_debug.json final_model_archive/"$line"/
+	tar -jcvf "$line".tar.bz2 "$line"/
+	rm -rf "$line"/
+done < "$inputFile"
+```
