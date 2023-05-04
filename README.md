@@ -4,4 +4,5 @@
 
 ## Contributors to this project include:
 Yilin Chen, Jeffrey K. Ng., Titi Akinwe, Yoonhoo Chang, Zachary L. Payne, Dr. Rachel Karchin^, Dr. Tychele N. Turner^
+
 ^ denotes co-corresponding authors
