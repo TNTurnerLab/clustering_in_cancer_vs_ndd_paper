@@ -1,7 +1,7 @@
 # This directory contains the information on generating isoform-specific protein structures with AlphaFold.
 
-## Author: Tychele N. Turner, Ph.D.
-## Last Update: May 5, 2023
+#### Author: Tychele N. Turner, Ph.D.
+#### Last Update: May 5, 2023
 
 ## Getting fasta sequences for RefSeq protein isoforms
 
