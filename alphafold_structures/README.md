@@ -68,3 +68,15 @@ do
 	rm -rf "$line"/
 done < "$inputFile"
 ```
+
+## The final files necessary for ModelArchive submission include
+```
+# for each protein
+ranked_0.pdb
+ranked_0.pkl (made by their script)
+ranking_debug.json
+
+#for the overall dataset
+csv file with one line for each protein consisting of Title, Description, RefSeqLink
+```
+
