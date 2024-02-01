@@ -15,7 +15,6 @@ option_list <- list(
 )
 
 
-
 args <- parse_args(OptionParser(option_list=option_list))
 
 # Function to read selections from a dataset file and count occurrences
@@ -48,6 +47,10 @@ names(data2) <- c("Residue", "Count2")
 # Merge data1 and data2 by residue, keeping all residues
 combined_data <- merge(data1, data2, by="Residue", all=TRUE)
 combined_data[is.na(combined_data)] <- 0  # Replace NA with 0
+
+# Sort the combined data by numeric residue values
+combined_data$ResidueNum <- as.numeric(as.character(combined_data$Residue))
+combined_data <- combined_data[order(combined_data$ResidueNum), ]
 
 # Determine the maximum count for scaling
 max_count <- max(combined_data$Count1, combined_data$Count2)
@@ -101,4 +104,3 @@ html_content <- sprintf('
 # Write the HTML to a file
 writeLines(html_content, args$output)
 cat("Visualization saved to", args$output, "\n")
-
