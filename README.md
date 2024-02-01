@@ -5,7 +5,7 @@
 ## Contributors to this project include:
 Jeffrey K. Ng#, Yilin Chen#, Titilope Akinwe#, Hillary B. Heins, Elvisa Mehinovic, Yoonhoo Chang, Zachary Payne, Juana G. Manuel, Rachel Karchin^, and Tychele N. Turner^
 
-# co-first authors
+ # co-first authors
 ^ denotes co-corresponding authors
 
 ## AlphaFold Structures
