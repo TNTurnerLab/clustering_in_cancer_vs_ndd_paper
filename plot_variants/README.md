@@ -24,3 +24,4 @@ Rscript plot3D_with_counts_intensity.R -p NP_001180345.pdb -d NP_001180345_NDD_V
 o NP_001180345_visualization.html
 ```
 
+I zipped the output html file after running the single step.
