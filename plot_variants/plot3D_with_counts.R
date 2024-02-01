@@ -18,8 +18,8 @@ args <- parse_args(OptionParser(option_list=option_list))
 
 # Function to read selections from a dataset file and count occurrences
 read_selections_and_counts <- function(file_path) {
-  data <- read.table(file_path, stringsAsFactors=FALSE)
-  counts <- table(data[[1]])
+	data <- read.table(file_path, stringsAsFactors=FALSE)
+	counts <- table(data[[1]])
 	return(as.data.frame(counts, stringsAsFactors=FALSE))
 }
 
