@@ -3,9 +3,9 @@
 ## This is a project that is a collaboration between the laboratories of Dr. Tychele N. Turner at Washington University in St. Louis and Dr. Rachel Karchin at the Johns Hopkins University. 
 
 ## Contributors to this project include:
-Jeffrey K. Ng#, Yilin Chen#, Titilope Akinwe#, Hillary B. Heins, Elvisa Mehinovic, Yoonhoo Chang, Zachary Payne, Juana G. Manuel, Rachel Karchin^, and Tychele N. Turner^
+Jeffrey K. Ng :stars:, Yilin Chen :stars: , Titilope Akinwe :stars:, Hillary B. Heins, Elvisa Mehinovic, Yoonhoo Chang, Zachary Payne, Juana G. Manuel, Rachel Karchin^, and Tychele N. Turner^
 
- # co-first authors
+:stars: co-first authors
 ^ denotes co-corresponding authors
 
 ## AlphaFold Structures
